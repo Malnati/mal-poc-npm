@@ -1,0 +1,25 @@
+{
+    "name": "@Malnati/mal-poc-npm",
+    "version": "1.0.0",
+    "description": "First experience for setting up GitHub as npm package repo.",
+    "main": "mal-poc-calculator.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Malnati/mal-poc-npm.git"
+    },
+    "author": "Ricardo Malnati",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Malnati/mal-poc-npm/issues"
+    },
+    "homepage": "https://github.com/Malnati/mal-poc-npm#readme",
+    "devDependencies": {
+        "jest": "^26.0.1"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    }
+}
